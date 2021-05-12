@@ -1,12 +1,21 @@
 # Radix Fibonacci subtheme for Drupal 8/9 based on Radix theme
 
-# Installation
+## Installation
 
-## Dependency
-1. Radix https://ftp.drupal.org/files/projects/radix-8.x-4.10.tar.gz
-2. Components  https://ftp.drupal.org/files/projects/components-8.x-2.4.tar.gz
+### Dependencies
 
-radix_fibonacci theme uses [Webpack](https://webpack.js.org) to compile and bundle SASS and JS.
+1. Radix
+2. Components
+
+composer require drupal/radix drupal/components
+
+or
+
+https://ftp.drupal.org/files/projects/radix-8.x-4.10.tar.gz
+
+https://ftp.drupal.org/files/projects/components-8.x-2.4.tar.gz
+
+### Radix Fibonacci theme uses [Webpack](https://webpack.js.org) to compile and bundle SASS and JS.
 
 #### Step 1
 Make sure you have Node and npm installed. 
