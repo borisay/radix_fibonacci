@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/radix_fibonacci.style.css: {}
+  js:
+    assets/js/radix_fibonacci.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

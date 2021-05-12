@@ -1,0 +1,43 @@
+name: Radix Fibonacci
+description: A theme based on Radix, logo from https://commons.wikimedia.org/ Author Icey at English Wikipedia.
+screenshot: screenshot-fibo.png
+core_version_requirement: ^8.7.7 || ^9.0
+# version: VERSION
+engine: twig
+type: theme
+base theme: radix
+
+regions:
+
+  global_header: Global header
+  header: Header
+  navbar_branding: Navbar branding
+  navbar_left:  Navbar left
+  navbar_right: Navbar right
+  search: Search
+  content_top: Content Top (full-bleed)
+  content: Content
+  content_bottom: Content Bottom (full-bleed)
+  footer: Footer
+
+
+
+libraries:
+  - radix/style
+  - radix_fibonacci/style
+
+libraries-override:
+  radix/bootstrap: false
+
+ckeditor_stylesheets:
+  - assets/css/radix_fibonacci.style.css
+
+component-libraries:
+  radix_fibonacci:
+    paths:
+      - ./src/components
+
+# Information added by Drupal.org packaging script on 2020-09-30
+version: '8.x-4.10'
+project: 'radix'
+datestamp: 1601449011
