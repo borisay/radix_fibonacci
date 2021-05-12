@@ -7,7 +7,7 @@
 1. Radix
 2. Components
 
-composer require drupal/radix drupal/components
+`composer require drupal/radix drupal/components`
 
 or
 
