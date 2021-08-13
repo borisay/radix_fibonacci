@@ -46,3 +46,11 @@ mix.sass('src/sass/radix_fibonacci.style.scss', 'css');
  |--------------------------------------------------------------------------
  */
 mix.js('src/js/radix_fibonacci.script.js', 'js');
+
+/*
+ |--------------------------------------------------------------------------
+ | Copy files
+ |--------------------------------------------------------------------------
+ */
+mix
+  .copyDirectory('./node_modules/bootstrap-icons/font/fonts', 'assets/css/fonts');
